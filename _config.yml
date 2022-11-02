@@ -1,14 +1,14 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
-baseurl:      "/phoneme-informed-transcription-blog"
-paginate:     1
-locale:       "en"
+title: A Phoneme-Informed Neural Network Model for Note-Level Singing Transcription
+tagline: Sangeon Yong, Li Su, and Juhan Nam
+baseurl: "/phoneme-informed-transcription-blog"
+paginate: 1
+locale: "en"
 
 # About/contact
 author:
-  name:       Sangeon Yong
-  url:        https://seyong92.github.io
+  name: Sangeon Yong
+  url: https://seyong92.github.io
 
 # Gems
 gems:
