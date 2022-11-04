@@ -35,10 +35,34 @@ We further investigated the effect of the input features by looking into the rec
 
 In the plot, the first two subplots are mel-spectrogram and PPG with softmax each. The third subplot is the ground truth piano roll. The fourth, fifth, and sixth subplots are the raw prediction of the network with mel-spectrogram ((b) in Table 1), PPG ((d) in Table 1), and both features ((g) in Table 1). In the raw prediction plots, red lines indicate the onset, blue lines indicate the offset, and green lines indicate the activation. Red and blue vertical dashed lines indicate the ground truth onset and offset, respectively, and the black dashed horizontal lines indicate the threshold for onsets and offsets.
 
-### Audio with Transition Notes
+### Examples with Transition Notes
 
 ![transition_1](resources/example_plot/transition/1.png){:style="display:block; margin:auto; width:80%; height:80%"}
 
-### Audio with Re-Onset Notes
+{% include embed-audio.html src="/resources/example_audio/transition/1_gt.wav" %}
+{% include embed-audio.html src="/resources/example_audio/transition/1_mel.wav" %}
+{% include embed-audio.html src="/resources/example_audio/transition/1_phn.wav" %}
+{% include embed-audio.html src="/resources/example_audio/transition/1_comb.wav" %}
+
+![transition_2](resources/example_plot/transition/2.png){:style="display:block; margin:auto; width:80%; height:80%"}
+
+{% include embed-audio.html src="/resources/example_audio/transition/2_gt.wav" %}
+{% include embed-audio.html src="/resources/example_audio/transition/2_mel.wav" %}
+{% include embed-audio.html src="/resources/example_audio/transition/2_phn.wav" %}
+{% include embed-audio.html src="/resources/example_audio/transition/2_comb.wav" %}
+
+### Examples with Re-Onset Notes
 
 ![reonset_1](resources/example_plot/reonset/1.png){:style="display:block; margin:auto; width:80%; height:80%"}
+
+{% include embed-audio.html src="/resources/example_audio/reonset/1_gt.wav" %}
+{% include embed-audio.html src="/resources/example_audio/reonset/1_mel.wav" %}
+{% include embed-audio.html src="/resources/example_audio/reonset/1_phn.wav" %}
+{% include embed-audio.html src="/resources/example_audio/reonset/1_comb.wav" %}
+
+![reonset_2](resources/example_plot/reonset/1.png){:style="display:block; margin:auto; width:80%; height:80%"}
+
+{% include embed-audio.html src="/resources/example_audio/reonset/2_gt.wav" %}
+{% include embed-audio.html src="/resources/example_audio/reonset/2_mel.wav" %}
+{% include embed-audio.html src="/resources/example_audio/reonset/2_phn.wav" %}
+{% include embed-audio.html src="/resources/example_audio/reonset/2_comb.wav" %}
