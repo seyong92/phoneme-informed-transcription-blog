@@ -11,12 +11,15 @@ Note-level automatic music transcription is one of the most representative music
 
 ![phoneme_example](resources/phoneme_example.png){:style="display:block; margin:auto; width:50%; height:50%"}
 **Figure.** An example of singing voice: mel-spectrogram (top), piano roll with onsets and pitches of notes (middle), and phonetic posteriorgram (PPG) (bottom) from singing (phonemes with probability under 0.5 in this example were omitted).
-{: text-align: center;"}
 
 ## Model Architecture
 
 ![model_architecture](resources/model_architecture.png){:style="display:block; margin:auto; width:50%; height:50%"}
 
-## Demo Examples with Visualized Features
-
 ## Evaluation
+
+### Ablation Study
+
+![ablation_study](resources/ablation_study.png){:style="display:block; margin:auto; width:80%; height:80%"}
+
+## Demo Examples with Visualized Features
