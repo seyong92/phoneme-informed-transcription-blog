@@ -20,6 +20,12 @@ Note-level automatic music transcription is one of the most representative music
 
 ### Ablation Study
 
-![ablation_study](resources/ablation_study.png){:style="display:block; margin:auto; width:80%; height:80%"}
+![ablation_study](resources/ablation_study.png)
+
+We conducted an ablation study to see the effect of input features and model architectures. The proposed model shown in Figure \ref{fig:models} corresponds to "Dual CRNNs + one RNN" in (g). We first compare it to a single CRNN model with only one type of features (either mel spectrogram in (a) or PPG in (c)). Considering that the model architecture can affect the performance, we also compared the proposed model to the same "Dual CRNNs + one RNN" but with one type of input features for both inputs (either mel spectrogram in (b) or PPG in (d)). Given the proposed model, we also removed the RNN module in each CRNN branch in (e), and then stacked another RNN module on top of (e) in (f).
+
+![onset_type_analysis](resources/onset_type_analysis.png){:style="display:block; margin:auto; width:70%; height:70%"}
+
+We further investigated the effect of the input features by looking into the recall accuracy for two special types of onsets: re-onset and transition. They are note onsets which have 20 ms or less apart from the offset of the previous note. The difference between the two types is whether the pitch changes (transition) or not (re-onset). The models with mel-spectrogram (in red) tend to detect more transitions, indicating that it is more sensitive to pitch change. On the other hand, the models with PPG (in blue) tend to detect more re-onsets, showing that it captures phonetic changes well. Lastly, the models with both features have more balanced accuracy in both transition and re-onset.
 
 ## Demo Examples with Visualized Features
