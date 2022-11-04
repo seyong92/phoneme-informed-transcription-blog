@@ -30,3 +30,5 @@ We conducted an ablation study to see the effect of input features and model arc
 We further investigated the effect of the input features by looking into the recall accuracy for two special types of onsets: re-onset and transition. They are note onsets which have 20 ms or less apart from the offset of the previous note. The difference between the two types is whether the pitch changes (transition) or not (re-onset). The models with mel-spectrogram (in red) tend to detect more transitions, indicating that it is more sensitive to pitch change. On the other hand, the models with PPG (in blue) tend to detect more re-onsets, showing that it captures phonetic changes well. Lastly, the models with both features have more balanced accuracy in both transition and re-onset.
 
 ## Demo Examples with Visualized Features
+
+![example_1](resources/example_plot/example_1.png){:style="display:block; margin:auto; width:80%; height:80%"}
