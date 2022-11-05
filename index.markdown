@@ -39,9 +39,16 @@ In the plot, the first two subplots are mel-spectrogram and PPG with softmax eac
 
 ![transition_1](resources/example_plot/transition/1.png){:style="display:block; margin:auto; width:80%; height:80%"}
 
-| Ground truth        | {% include embed-audio.html src="https://github.com/seyong92/phoneme-informed-transcription-blog/blob/master/resources/example_audio/transition/1_gt.mp3?raw=true" %}  | Model with mel-spectrogram only | {% include embed-audio.html src="https://github.com/seyong92/phoneme-informed-transcription-blog/blob/master/resources/example_audio/transition/1_mel.mp3?raw=true" %}  |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Model with PPG only | {% include embed-audio.html src="https://github.com/seyong92/phoneme-informed-transcription-blog/blob/master/resources/example_audio/transition/1_phn.mp3?raw=true" %} | Model with both features        | {% include embed-audio.html src="https://github.com/seyong92/phoneme-informed-transcription-blog/blob/master/resources/example_audio/transition/1_comb.mp3?raw=true" %} |
+Ground truth
+{% include embed-audio.html src="https://github.com/seyong92/phoneme-informed-transcription-blog/blob/master/resources/example_audio/transition/1_gt.mp3?raw=true" %}
+Model with mel-spectrogram only
+{% include embed-audio.html src="https://github.com/seyong92/phoneme-informed-transcription-blog/blob/master/resources/example_audio/transition/1_mel.mp3?raw=true" %}
+Model with PPG only
+{% include embed-audio.html src="https://github.com/seyong92/phoneme-informed-transcription-blog/blob/master/resources/example_audio/transition/1_phn.mp3?raw=true" %}
+Model with both features
+{% include embed-audio.html src="https://github.com/seyong92/phoneme-informed-transcription-blog/blob/master/resources/example_audio/transition/1_comb.mp3?raw=true" %}
+
+{% include embed-audios.html src_gt="https://github.com/seyong92/phoneme-informed-transcription-blog/blob/master/resources/example_audio/transition/1_gt.mp3?raw=true" src_mel="https://github.com/seyong92/phoneme-informed-transcription-blog/blob/master/resources/example_audio/transition/1_mel.mp3?raw=true" src_ppg="https://github.com/seyong92/phoneme-informed-transcription-blog/blob/master/resources/example_audio/transition/1_phn.mp3?raw=true" src_comb="https://github.com/seyong92/phoneme-informed-transcription-blog/blob/master/resources/example_audio/transition/1_comb.mp3?raw=true"%}
 
 ![transition_2](resources/example_plot/transition/2.png){:style="display:block; margin:auto; width:80%; height:80%"}
 

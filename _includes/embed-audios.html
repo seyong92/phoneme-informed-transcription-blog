@@ -1,0 +1,30 @@
+<div style="display: flex; flex-direction: row">
+  <div style="display: flex">
+    Ground truth
+    <audio controls>
+      <source src="{{ include.src_gt }}" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div style="display: flex">
+    Model with mel-spectrogram only
+    <audio controls>
+      <source src="{{ include.src_mel }}" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div style="display: flex">
+    Model with PPG only
+    <audio controls>
+      <source src="{{ include.src_ppg }}" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  <div style="display: flex">
+    Model with both features
+    <audio controls>
+      <source src="{{ include.src_comb }}" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</div>
