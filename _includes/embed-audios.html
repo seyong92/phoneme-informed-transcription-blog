@@ -6,21 +6,21 @@
       Your browser does not support the audio element.
     </audio>
   </div>
-  <div style="display: flex">
+  <div style="display: flex; flex-direction: column">
     <div>Model with mel-spectrogram only</div>
     <audio controls>
       <source src="{{ include.src_mel }}" type="audio/mpeg" />
       Your browser does not support the audio element.
     </audio>
   </div>
-  <div style="display: flex">
+  <div style="display: flex; flex-direction: column">
     <div>Model with PPG only</div>
     <audio controls>
       <source src="{{ include.src_ppg }}" type="audio/mpeg" />
       Your browser does not support the audio element.
     </audio>
   </div>
-  <div style="display: flex">
+  <div style="display: flex; flex-direction: column">
     <div>Model with both features</div>
     <audio controls>
       <source src="{{ include.src_comb }}" type="audio/mpeg" />
