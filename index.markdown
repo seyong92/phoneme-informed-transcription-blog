@@ -37,7 +37,7 @@ In the plot, the first two subplots are mel-spectrogram and PPG with softmax eac
 
 ### Examples with Transition Notes
 
-Note that transition notes are not detected well with PPG, but well detected with mel-spectrogram.
+Note that transition notes are not detected well with PPG, but well detected with mel-spectrogram. The orange-colored box is where the model with PPG cannot detect the onset.
 
 ![transition_1](resources/example_plot/transition/1.png){:style="display:block; margin:auto; width:80%; height:80%"}
 
@@ -67,7 +67,7 @@ Model with both features
 
 ### Examples with Re-Onset Notes
 
-Note that re-onset notes are not detected well with mel-spectrogram, but well detected with PPG.
+Note that re-onset notes are not detected well with mel-spectrogram, but well detected with PPG. The orange-colored box is where the model with mel-spectrogram cannot detect the onset.
 
 ![reonset_1](resources/example_plot/reonset/1.png){:style="display:block; margin:auto; width:80%; height:80%"}
 
